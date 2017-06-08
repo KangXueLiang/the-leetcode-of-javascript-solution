@@ -2,7 +2,9 @@
 用js刷leetcode时的一些想法及解题思路
 
 ## 235. Lowest Common Ancestor of a Binary Search Tree
-Description Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.
+Description
+<pre>
+Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.
 
 According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
 
@@ -14,6 +16,7 @@ According to the definition of LCA on Wikipedia: “The lowest common ancestor i
          /  \
          3   5
 For example, the lowest common ancestor (LCA) of nodes 2 and 8 is 6. Another example is LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
+</pre>
 
 ### 解题思路：这道题是求任意某两个节点的共同的最小祖先节点。
 1. 给的二叉树是一个BST
