@@ -22,7 +22,7 @@ Output: The root of a Greater Tree like this:
 </pre>
 
 ### 题目翻译：给一个BST，把它的每个节点的值转换为  所有比该节点值大(包括相等)的二叉树节点值 之和   
-### 解题思路
+### 解题思路(暴力解法，后面有正常解法)
 1. 写一个函数，遍历二叉树，把所有二叉树的节点的值放入一个数组内
 2. 分层遍历二叉树，把每个节点值与数组内元素比较，求大于该节点值的元素的和
 3. 改变该节点值
@@ -79,6 +79,7 @@ function traverse(root, result = []){ //遍历二叉树，把所有节点值push
 }
 </pre>
 ### 结果！！！AC了以后看别人的解题思路，发现自己简直就是个智障…………以下是别人的solution
+### 解题思路 右序遍历
 <pre>
 var convertBST = function(root) {
     var sum = 0;
