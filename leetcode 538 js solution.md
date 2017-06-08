@@ -78,4 +78,19 @@ function traverse(root, result = []){ //遍历二叉树，把所有节点值push
     return result
 }
 </pre>
+### 结果！！！AC了以后看别人的解题思路，发现自己简直就是个智障…………以下是别人的solution
+<pre>
+var convertBST = function(root) {
+    var sum = 0;
+    var convert = function(node) {
+        if (!node) return;
+        convert(node.right);
+        node.val += sum;
+        sum = node.val;
+        convert(node.left);
+    };
+    convert(root);
+    return root;
+}
+</pre>
 Done.
