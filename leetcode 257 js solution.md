@@ -24,7 +24,7 @@ All root-to-leaf paths are:
 判断节点为叶时，退出递归。
 每次递归需要把当前路径保存，最终的数组保存并递归下去。
 2. 题目所给的函数参数不够，新建函数遍历二叉树。
-
+<pre>
 slution:
 /**
  * Definition for a binary tree node.
