@@ -22,6 +22,7 @@ For example, the lowest common ancestor (LCA) of nodes 2 and 8 is 6. Another exa
 4.返回root
 
 slution:
+<pre>
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -35,11 +36,12 @@ slution:
  * @param {TreeNode} q
  * @return {TreeNode}
  */
- 
+
 var lowestCommonAncestor = function(root, p, q) {
     while((root.val - p.val) * (root.val - q.val) > 0){
         root = root.val > p.val ? root.left : root.right
     }
     return root
 };
+</pre>
 Done.
