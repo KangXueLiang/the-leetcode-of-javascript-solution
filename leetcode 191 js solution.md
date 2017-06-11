@@ -29,7 +29,7 @@ var hammingWeight = function(n) {
 };
 </pre>
 solution2: 位运算 n & (n - 1) 得出一个比n二进制少一个1的数
-<per>
+<pre>
 var hammingWeight = function(n) {
     var count = 0;
     while(n){
