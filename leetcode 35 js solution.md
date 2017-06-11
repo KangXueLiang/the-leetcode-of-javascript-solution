@@ -37,4 +37,17 @@ var searchInsert = function(nums, target) {
     }
 };
 </pre>
+这种解法的时间复杂度是O(n),也可以通过二分法实现复杂度O(log(n))
+<pre>
+var searchInsert = function(nums, target) {
+    var low = 0, high = nums.length - 1
+    while(low <= high){
+        var mid = (low + high) / 2 | 0
+        if(nums[mid] === target) return mid
+        else if(nums[mid] > target) high = mid - 1
+        else low = mid + 1
+    }
+    return low
+};
+</pre>
 Done.
