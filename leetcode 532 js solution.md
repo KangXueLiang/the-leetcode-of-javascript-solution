@@ -32,6 +32,7 @@ All the integers in the given input belong to the range: [-1e7, 1e7].
 1. 根据数组新建一个对象，属性名为数组元素，属性值为该元素出现的次数。
 2. 分情况分析，如果k为0，则找出对象中属性值大于等于2的属性个数即可。如果k>0,则把 属性值+k 作为新的属性值 ，如果该对象有此属性，则说明原数组
 存在差值为k的一对儿元素。
+3. 注意：for(key in theMap) for...in...循环中的key为字符串，需要先转为数字类型。
 
 slution:
 <pre>
