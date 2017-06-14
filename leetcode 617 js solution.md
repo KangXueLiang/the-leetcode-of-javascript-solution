@@ -46,23 +46,19 @@ slution:
  * @param {TreeNode} t2
  * @return {TreeNode}
  */
-var mergeTrees = function(t1, t2) {
-    if(t1 !== null && t2 !== null){
-        t1.val += t2.val
-        if(t1.left !== null && t2.left !== null){
-            mergeTrees(t1.left, t2.left)
-        }else if(!t1.left && t2.left !== null ){
-            t1.left = t2.left
-        }
-        if(t1.right !== null && t2.right !== null){
-            mergeTrees(t1.right, t2.right)
-        }else if(!t1.right && t2.right !== null ){
-            t1.right = t2.right
-        }
-    } else if(!t1 && t2!== null){
-        t1 = t2
+var mergeTrees = function (t1, t2) {
+    if (t1 !== null && t2 !== null) {
+        var node = new TreeNode(t1.val + t2.val);
+        node.left = mergeTrees(t1.left, t2.left);
+        node.right = mergeTrees(t1.right, t2.right);
+        return node;
+    } else if (t1 !== null) {
+        return t1;
+    } else if (t2 !== null) {
+        return t2;
+    } else {
+        return null
     }
-    return t1
 };
 </pre>
 Done.
