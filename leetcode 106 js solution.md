@@ -14,7 +14,7 @@ You may assume that duplicates do not exist in the tree.
 ### 题目翻译： 给一个二叉树的中序和后序遍历，求此二叉树的结构，注意：不考虑出现重复的节点
 ### 解题思路： 后序遍历最后一个节点总是根节点，然后在中序遍历中找到此节点，其左边为左枝，右边为右枝，再从后序遍历中把左枝的后序与右枝的后序找出来，递归。
 
-slution: 暴力转换
+slution: 
 <pre>
 /**
  * Definition for a binary tree node.
