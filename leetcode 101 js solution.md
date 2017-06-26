@@ -30,7 +30,7 @@ Bonus points if you could solve it both recursively and iteratively.
 2. 写一个函数，判断两个二叉树是否深度相等。
 3. 带入原函数
 
-slution:
+solution:
 ```js
 /**
  * Definition for a binary tree node.
