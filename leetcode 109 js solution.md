@@ -13,8 +13,8 @@ Given a singly linked list where elements are sorted in ascending order, convert
 ### 解题思路：我的方法是先把链表转成升序数组，再把数组转成二叉树。可能有点啰嗦，后面有简单防范，直接操作链表的。
 
 
-slution1:
-<pre>
+solution1:
+```js
 var sortedListToBST = function(head) {
     return array2BST(linked2Array(head))
 };
@@ -40,9 +40,9 @@ function array2BST(array, root = new TreeNode()){//把数组转成二叉树
     }
     return root
 }
-</pre>
+```
 solution2 
-<pre>
+```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -77,5 +77,5 @@ var sortedListToBST = function(head, tail) {
     return node;
 };
 
-</pre>
+```
 Done.
