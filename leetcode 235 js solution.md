@@ -27,8 +27,8 @@ For example, the lowest common ancestor (LCA) of nodes 2 and 8 is 6. Another exa
 3. 改变当前root的指向，并分析祖先元素处于当前root的左枝or右枝
 4. 返回root
 
-slution:
-<pre>
+solution:
+```js
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -49,5 +49,5 @@ var lowestCommonAncestor = function(root, p, q) {
     }
     return root
 };
-</pre>
+```
 Done.
