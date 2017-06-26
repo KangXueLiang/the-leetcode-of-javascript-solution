@@ -3,6 +3,7 @@
 用js刷leetcode时的一些想法及解题思路
 
 ## 101. Symmetric Tree
+<pre>
 Description
 Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
 
