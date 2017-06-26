@@ -15,7 +15,19 @@ If this function is called many times, how would you optimize it?
 ### 题目翻译： 求一个32位的十进制数字的二进制翻转后的十进制数字
 ### 解题思路： 貌似不用思路吧……
 
-slution: 
+solution1:
+```js
+var reverseBits = function(n) {
+    var res = 0;
+    for(var i = 0; i< 32; i++){
+        var bit = n &1;
+        n >>=1;
+       res = (res*2)+bit;
+    }
+    return res;
+};
+```
+solution2: 
 ```js
 var reverseBits = function(n) {
     var tmp = n.toString(2).split('').reverse()
