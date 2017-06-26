@@ -71,6 +71,7 @@ function isEqual(p, q){  //判断两个二叉树是否完全一致。
     } else {
         return false
     }
+    
 }
 ```
 Done.
