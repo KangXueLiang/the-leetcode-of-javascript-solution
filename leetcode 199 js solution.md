@@ -22,8 +22,8 @@ You should return [1, 3, 4].
 1. 按层遍历，把每一层的节点的值放入一个数组内
 2. 把数组的最后一个元素输出到 结果数组内
 
-slution:
-<pre>
+solution:
+```js
 var rightSideView = function(root) {
     var row = [root]
     var tmp = []
@@ -44,5 +44,5 @@ var rightSideView = function(root) {
     }
     return result
 };
-</pre>
+```
 Done.
