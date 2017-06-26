@@ -22,8 +22,8 @@ Your algorithm's time complexity must be better than O(n log n), where n is the 
 2. 把对象的值（即元素出现的次数）作为一个新建数组的下标，把出现该次数的元素作为新建数组的子元素中，与下标相对应。
 3. 从后向前遍历新建数组，即出现次数的由多到少的排序，拿出前k个元素，放到结果数组中。
 
-slution:
-<pre>
+solution:
+```js
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -52,7 +52,7 @@ var topKFrequent = function(nums, k) {
     }
     return result
 };
-</pre>
+```
 还有一种办法，用堆排序的，就不介绍了，繁琐，不过时间复杂度也正好满足。
 
 Done.
