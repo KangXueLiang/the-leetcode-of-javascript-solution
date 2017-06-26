@@ -12,8 +12,8 @@ For example, the 32-bit integer ’11' has binary representation 000000000000000
 ### 题目翻译： 给一个数字，求出它的二进制数含有的1的个数
 ### 解题思路： Easy
 
-slution: 暴力转换
-<pre>
+solution: 暴力转换
+```js
 /**
  * @param {number} n - a positive integer
  * @return {number}
@@ -27,9 +27,9 @@ var hammingWeight = function(n) {
     })
     return count
 };
-</pre>
+```
 solution2: 位运算 n & (n - 1) 得出一个比n二进制少一个1的数
-<pre>
+```js
 var hammingWeight = function(n) {
     var count = 0;
     while(n){
@@ -38,5 +38,5 @@ var hammingWeight = function(n) {
     }
     return count;
 };
-</pre>
+```
 Done.
