@@ -5,6 +5,7 @@
 * [191. Number of 1 Bits](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20191%20js%20solution.md)
 * [461. Hamming Distance](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20461%20js%20solution.md)
 ### 数组 Array
+* [1. Two Sum](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%201%20js%20solution.md)
 * [137. Single Number II](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20137%20js%20solution.md) 
 * [347. Top K Frequent Elements](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20347%20js%20solution.md)
 * [35. Search Insert Position](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%2035%20js%20solution.md)
