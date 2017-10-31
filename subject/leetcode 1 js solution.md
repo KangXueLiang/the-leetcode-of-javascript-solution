@@ -38,4 +38,45 @@ var twoSum = function(nums, target) {
     }
 };
 ```
-Done.
+也可以用Map解答
+```js
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    var map = {};
+    for(var i=0; i<nums.length; i++){
+        var pair = target - nums[i];
+        if(map[pair] !== undefined) {
+            return [map[pair], i];
+        }
+        map[nums[i]] = i;
+    }
+    return [];
+};
+```
+也可以用hash解答
+```js
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    const hash = {};
+    nums.forEach((num, idx) => hash[num] = idx)
+    
+    let result = [];
+    for (let i=0; i < nums.length; i++) {
+        let value = target - nums[i];
+        if (hash[value]) {
+            result = [i, hash[value]];
+            break;
+        }
+    }
+    return result;
+};
+```
+方法太多了，Done.
