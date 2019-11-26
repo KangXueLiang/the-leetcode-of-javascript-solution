@@ -33,3 +33,4 @@
 * [617. Merge Two Binary Trees](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20617%20js%20solution.md)
 ### 并查集
 * [547. Friend Circles](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20547%20js%20solution.md)
+### 动态规划
