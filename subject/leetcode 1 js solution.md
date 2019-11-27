@@ -46,15 +46,15 @@ var twoSum = function(nums, target) {
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-    var map = {};
-    for(var i=0; i<nums.length; i++){
-        var pair = target - nums[i];
-        if(map[pair] !== undefined) {
-            return [map[pair], i];
+    let map = new Map()
+    for (let i = 0; i < nums.length; i++) {
+        let tmp = target - nums[i]
+        if (map.has(tmp)) {
+            return [map.get(tmp), i]
         }
-        map[nums[i]] = i;
+        map.set(nums[i], i)
     }
-    return [];
+    return []
 };
 ```
 也可以用hash解答
