@@ -35,4 +35,4 @@
 ### 并查集
 * [547. Friend Circles](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20547%20js%20solution.md)
 ### 动态规划
-* [70. 爬楼梯](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20547%20js%20solution.md)
+* [70. 爬楼梯](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%2070%20js%20solution.md)
