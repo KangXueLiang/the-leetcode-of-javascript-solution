@@ -27,7 +27,7 @@
 
 </pre>
 
-### 解题思路： 斐波那契数列问题。 f(n) = f(n - 1) + f(n - 2),所有的值都存在数组内
+### 解题思路： 找到规律。 f(n) = f(n - 1) + f(n - 2),所有的值都存在数组内
 
 solution: 
 ```js
@@ -41,6 +41,26 @@ var climbStairs = function(n) {
         result[i] = result[i - 1] + result[i - 2]
     }
     return reuslt[n]
+};
+```
+
+### 解题思路：不存储所有的计算结果，进一步降低空间的浪费
+solution:
+```js
+/**
+ * @param {number} n
+ * @return {number}
+ */
+var climbStairs = function(n) {
+    if (n <=2 ) return n
+    let first = 1
+    let second = 2
+    for (let i = 3; i <= n; i++) {
+        let third = first + second
+        first = second
+        second = third
+    }
+    return third
 };
 ```
 Done.
