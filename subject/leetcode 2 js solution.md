@@ -33,7 +33,7 @@ solution:
  * @param {ListNode} l2
  * @return {ListNode}
  */
- function addTwoNumbers = function(l1, l2, carry = 0){
+ function addTwoNumbers (l1, l2, carry = 0){
      let v = l1.val + l2.val + carry
      c = v > 9 ? 1 : 0
      v = v % 10
@@ -49,4 +49,51 @@ solution:
      }
  }
 ```
+
+### 解题思路2： 官方解释。先创建一个哑节点，当前指针指向该节点，然后用p、q指向当前链表节点。将两个链表节点都为空作为终止循环的条件，模拟运算后，指针后移，最后判断当前进位，如果为1,说明链表需要加深一层，最后返回哑结点的next，即我们最终需要的链表。
+```js
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
+/**
+ * @param {ListNode} l1
+ * @param {ListNode} l2
+ * @return {ListNode}
+ */
+function addTwoNumbers (l1, l2) {
+     let p = l1, q  = l2, carry = 0
+     let dummyHead = new ListNode(0)
+     let curr = dummyHead
+     while(p != null || q != null) {
+         let v1 = p ? p.val : 0
+         let v2 = q ? q.val : 0
+         let sum = v1 + v2 + carry
+         if (sum > 9) {
+            carry = 1
+            sum = sum % 10
+         } else {
+            carry = 0
+         }
+         curr.next = new ListNode(sum)
+         curr = curr.next
+         p = p ? p.next : null
+         q = q ? q.next : null
+     }
+     if (carry === 1) {
+         curr.next = new ListNode(1)
+     }
+     return dummyHead.next
+ }
+ 
+```
+复杂度分析
+
+* 时间复杂度：O(max(m,n))，假设 m 和 n 分别表示 l1 和 l2 的长度，上面的算法最多重复 max(m,n) 次。
+
+* 空间复杂度：O(max(m,n))， 新列表的长度最多为 max(m,n)+1。
+
 Done.
