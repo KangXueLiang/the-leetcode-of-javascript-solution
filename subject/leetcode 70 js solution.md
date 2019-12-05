@@ -27,7 +27,7 @@
 
 </pre>
 
-### 解题思路： 斐波那契数列问题。n(1) = 1, n(2) = 2, n(3) = n(1) + n(2), n(4) = n(3) + n(2)...,所有的值都存在数组内
+### 解题思路： 斐波那契数列问题。 f(n) = f(n - 1) + f(n - 2),所有的值都存在数组内
 
 solution: 
 ```js
@@ -37,16 +37,10 @@ solution:
  */
 var climbStairs = function(n) {
     let result = [0, 1, 2]
-    let s = 3
-    if (n <= 2) {
-        return result[n]
-    } else {
-        while( s <= n) {
-            result[s] = result[s - 1] + result[s - 2]
-            s++
-        }
-        return result[n]
-    } 
+    for (let i = 3; i <= n; i++) {
+        result[i] = result[i - 1] + result[i - 2]
+    }
+    return reuslt[n]
 };
 ```
 Done.
