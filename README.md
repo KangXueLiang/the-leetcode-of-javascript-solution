@@ -20,8 +20,8 @@
 * [415. Add Strings](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20415%20js%20solution.md)
 * [93. Restore IP Addresses](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%2093%20js%20solution.md)
 ### 链表 Link
-* [109. Convert Sorted List to Binary Search Tree](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20109%20js%20solution.md)
 * [2. 两数相加](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%202%20js%20solution.md)
+* [109. Convert Sorted List to Binary Search Tree](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20109%20js%20solution.md)
 ### 二叉树 Binary Tree
 * [101. Symmetric Tree](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20101%20js%20solution.md)
 * [106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20106%20js%20solution.md)
@@ -35,3 +35,4 @@
 ### 并查集
 * [547. Friend Circles](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20547%20js%20solution.md)
 ### 动态规划
+* [70. 爬楼梯](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20547%20js%20solution.md)
