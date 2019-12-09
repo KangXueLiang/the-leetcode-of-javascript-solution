@@ -29,8 +29,7 @@ Description
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 </pre>
 
-### 题目翻译： 不解释
-### 解题思路： 第一个数从前往后循环，第二个数从后往前循环，找出符合要求的两个数字。
+### 解题思路： 采用移动滑块的思路，同时将遍历过的字符和他的下标存入map中，动态修改map中的数据与最大长度。
 
 solution: 
 ```js
@@ -58,5 +57,26 @@ var lengthOfLongestSubstring = function(s) {
     }
     return max
 };
+```
+### 另一种比较直观的解法，但是速度稍慢。把结果存入队列中，如果当前字符不存在与队列中则push进去，否则就一直shift当前队列直到没有重复字符为止。
+```js
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function(s) {
+    let tmp = [];
+    let max = 0
+    for (let i = 0; i < s.length; i++) {
+        if (tmp.indexOf(s[i]) === -1) {
+            tmp.push(s[i])
+        } else {
+            tmp.shift()
+            continue
+        }
+        max = Math.max(max, tmp.length)
+    }
+    return max
+}
 ```
 Done.
