@@ -6,6 +6,7 @@
 * [461. Hamming Distance](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20461%20js%20solution.md)
 ### 数组 Array
 * [1. Two Sum](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%201%20js%20solution.md)
+* [1266. 访问所有点的最小时间](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%201266%20js%20solution.md)
 * [137. Single Number II](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20137%20js%20solution.md) 
 * [347. Top K Frequent Elements](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20347%20js%20solution.md)
 * [35. Search Insert Position](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%2035%20js%20solution.md)
@@ -14,6 +15,7 @@
 * [532. K-diff Pairs in an Array](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20532%20js%20solution.md)
 * [609. Find Duplicate File in System](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20609%20js%20solution.md)
 * [66. Plus One](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%2066%20js%20solution.md)
+* [66. Plus One](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%2066%20js%20solution.md
 ### 数字 Number
 * [202. Happy Number](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20202%20js%20solution.md)
 ### 字符串 String
