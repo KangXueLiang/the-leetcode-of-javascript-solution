@@ -4,6 +4,7 @@
 * [190. Reverse Bits](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20190%20js%20solution.md)
 * [191. Number of 1 Bits](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20191%20js%20solution.md)
 * [461. Hamming Distance](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20461%20js%20solution.md)
+* [136. 只出现一次的数字]（https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%20136%20js%20solution.md）
 ### 数组 Array
 * [1. Two Sum](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%201%20js%20solution.md)
 * [1266. 访问所有点的最小时间](https://github.com/KangXueLiang/the-leetcode-of-javascript-solution/blob/master/subject/leetcode%201266%20js%20solution.md)
